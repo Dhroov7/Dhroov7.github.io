@@ -1,0 +1,48 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.profile {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.facebook{
+    color: lightgrey;
+}
+
+.github{
+    color: lightgrey;
+}
+
+.linkedin{
+    color: lightgrey;
+}
+
+.facebook:hover{
+    color: darkblue;
+}
+
+.github:hover{
+    color: black;
+}
+
+.linkedin:hover{
+    color: dodgerblue;
+}
