@@ -12,7 +12,8 @@ function drawChart() {
     ]);
 
     var options = {
-        title: 'My Programming Languages'
+        title: 'My Programming Languages',
+        is3D:true,
     };
 
     var chart = new google.visualization.PieChart(document.getElementById('piechart'));
