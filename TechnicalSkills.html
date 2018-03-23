@@ -4,20 +4,32 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114835032-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-114835032-1');
     </script>
     <meta charset="UTF-8">
     <title>Dhroov gupta|Technical Skills</title>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.2%202/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.2%202/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tangerine"/>
     <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tangerine" />
+    <link rel="stylesheet" href="style1.css">
     <script src="js/jquery-3.2.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="OwlCarousel2-2.3.2%202/dist/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
     <script src="js/bootstrap.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="script1.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light">
@@ -69,22 +81,73 @@
     </div>
 </div>
 
-<ul class="list-group" style="margin-left: 80px;margin-right: 80px">
-    <li class="list-group-item" style="background-color: lightgrey;margin-bottom: 10px">Java</li>
-    <li class="list-group-item" style="background-color: lightgrey;margin-bottom: 10px">C/C++</li>
-    <li class="list-group-item" style="background-color: lightgrey;margin-bottom: 10px">JavaScript</li>
-    <li class="list-group-item" style="background-color: lightgrey;margin-bottom: 10px">NodeJS</li>
-    <li class="list-group-item" style="background-color: lightgrey;margin-bottom: 10px">HTML5</li>
-    <li class="list-group-item" style="background-color: lightgrey;margin-bottom: 10px">CSS3</li>
-    <li class="list-group-item" style="background-color: lightgrey;margin-bottom: 10px">JQuery</li>
-    <li class="list-group-item" style="background-color: lightgrey;margin-bottom: 10px">MySQL</li>
-    <li class="list-group-item" style="background-color: lightgrey;margin-bottom: 10px">MongoDB</li>
-    <li class="list-group-item" style="background-color: lightgrey;margin-bottom: 10px">Git</li>
-    <li class="list-group-item" style="background-color: lightgrey;margin-bottom: 10px">Data Structures</li>
-    <li class="list-group-item" style="background-color: lightgrey;margin-bottom: 10px">Algorithms</li>
-    <li class="list-group-item" style="background-color: lightgrey;margin-bottom: 10px">Competitive Programming</li>
-</ul>
-<footer style="background-image: url('img/footer.jpg');height: 40px">
+
+<div id="owl-demo" class="owl-carousel owl-theme owl-dots" style="margin-left: 20px">
+    <div class="item">
+        <div>
+            <i class="fab fa-html5 fa-5x" style="color: orangered"></i>
+        </div>
+        <h3 style="margin-top: 10px">HTML5</h3>
+    </div>
+
+    <div class="item">
+        <div>
+            <i class="fab fa-css3-alt fa-5x" style="color: mediumblue"></i>
+        </div>
+        <h3 style="margin-top: 10px">CSS3</h3>
+    </div>
+
+    <div class="item">
+        <div>
+            <i class="fas fa-code fa-5x" style="color: lightgrey"></i>
+        </div>
+        <h3 style="margin-top: 10px">JQuery</h3>
+    </div>
+
+    <div class="item">
+        <div>
+            <i class="fab fa-js-square fa-5x" style="color: #FFFF5E"></i>
+        </div>
+        <h3 style="margin-top: 10px">JavaScript</h3>
+    </div>
+
+    <div class="item">
+        <div>
+            <i class="fas fa-code fa-5x" style="color: lightgrey"></i>
+        </div>
+        <h3 style="margin-top: 10px">Java</h3>
+    </div>
+
+    <div class="item">
+        <div>
+            <i class="fas fa-database fa-5x" style="color: black"></i>
+        </div>
+        <h3 style="margin-top: 10px">MySQL</h3>
+    </div>
+
+    <div class="item">
+        <div>
+            <i class="fas fa-code fa-5x" style="color: lightgrey"></i>
+        </div>
+        <h3 style="margin-top: 10px">C/C++</h3>
+    </div>
+
+    <div class="item">
+        <div>
+            <i class="fab fa-node fa-5x" style="color: green"></i>
+        </div>
+        <h3 style="margin-top: 10px">NodeJS</h3>
+    </div>
+
+    <div class="item">
+        <div>
+            <i class="fab fa-git fa-5x" style="color: black"></i>
+        </div>
+        <h3 style="margin-top: 10px">Git</h3>
+    </div>
+
+</div>
+<footer style="background-image: url('img/footer.jpg');height: 40px;position: absolute;bottom: 0;width: 100%">
     <p style="color: lightgrey;text-align: end">Copyright © 2018 Dhroov Gupta</p>
 </footer>
 </body>
