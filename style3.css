@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+
+.parallax {
+    background-image: url('img/background-3.jpg');
+
+    height: 80%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
+}
+
