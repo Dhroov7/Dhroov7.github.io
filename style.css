@@ -13,3 +13,23 @@
 .pt-l{
     padding-top: 8%;
 }
+
+.about-me{
+    /*background: -webkit-linear-gradient(to right, black,grey);*/
+    /*background: linear-gradient(to right, black,grey);*/
+    background-color: black;
+}
+
+.align-centre{
+    position: relative;
+    left: 45%;
+}
+
+.pl-xxl{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h3{
+    word-spacing: 10px;
+}
