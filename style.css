@@ -1,56 +1,15 @@
-.container {
-    position: relative;
-    text-align: center;
+.home{
+    background: #B993D6;
+    background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);
+    background: linear-gradient(to right, #8CA6DB, #B993D6);
+    width: 100%;
+    height: auto;
+}
+
+.white{
     color: white;
 }
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.main {
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-.profile {
-    position: absolute;
-    top: 50px;
-    left: 40px;
-}
-
-.facebook{
-    color: lightgrey;
-}
-
-.github{
-    color: lightgrey;
-}
-
-.quora{
-    color: lightgrey;
-}
-
-.linkedin{
-    color: lightgrey;
-}
-
-.facebook:hover{
-    color: darkblue;
-}
-
-.quora:hover{
-    color: darkred;
-}
-
-.github:hover{
-    color: black;
-}
-
-.linkedin:hover{
-    color: dodgerblue;
+.pt-l{
+    padding-top: 8%;
 }

@@ -1,0 +1,22 @@
+{
+  "name": "dhroovbio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "programmingLangFront.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Dhroov7/Dhroov7.github.io.git"
+  },
+  "author": "Dhroov Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhroov7/Dhroov7.github.io/issues"
+  },
+  "homepage": "https://github.com/Dhroov7/Dhroov7.github.io#readme",
+  "dependencies": {
+    "semantic-ui": "^2.3.3"
+  }
+}
