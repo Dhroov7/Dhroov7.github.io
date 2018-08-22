@@ -1,56 +1,69 @@
-.container {
-    position: relative;
-    text-align: center;
+.home{
+    background: #B993D6;
+    background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);
+    background: linear-gradient(to right, #8CA6DB, #B993D6);
+    width: 100%;
+    height: auto;
+}
+
+.white{
     color: white;
 }
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.pt-l{
+    padding-top: 8%;
 }
 
-.main {
+.about-me{
+    background-color: black;
+}
+
+.align-centre{
     position: relative;
-    top: 0;
-    left: 0;
+    left: 45%;
 }
 
-.profile {
-    position: absolute;
-    top: 50px;
-    left: 40px;
+.pl-xxl{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.facebook{
-    color: lightgrey;
+.size-sm{
+    width: 60px;
+    height: 60px;
 }
 
-.github{
-    color: lightgrey;
+.size-xsm{
+    width: 50px;
+    height: 50px;
 }
 
-.quora{
-    color: lightgrey;
+.work{
+    background: #DAD299;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B0DAB9, #DAD299); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.linkedin{
-    color: lightgrey;
+.contributions{
+    background-color: black;
 }
 
-.facebook:hover{
-    color: darkblue;
+.font-size-md{
+    font-size: medium;
 }
 
-.quora:hover{
-    color: darkred;
+.contact{
+    background: #283048;
+    background: -webkit-linear-gradient(to right, #859398, #283048);
+    background: linear-gradient(to right, #859398, #283048);
 }
 
-.github:hover{
-    color: black;
+.footer{
+    background-color: black;
 }
 
-.linkedin:hover{
-    color: dodgerblue;
+.customFont{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: xx-large;
 }

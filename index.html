@@ -4,25 +4,26 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114835032-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-114835032-1');
     </script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript" src="programmingLangFront.js"></script>
     <meta charset="UTF-8">
     <title>Hey,I'm Dhroov Gupta</title>
-    <link rel="icon" href="img/batman-logo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="OwlCarousel2-2.3.2%202/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="OwlCarousel2-2.3.2%202/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tangerine"/>
     <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="style1.css">
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="node_modules/semantic-ui/dist/semantic.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="OwlCarousel2-2.3.2%202/dist/owl.carousel.min.js"></script>
@@ -30,155 +31,335 @@
             integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
             crossorigin="anonymous"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="script1.js"></script>
-    <script src="script.js"></script>
+    <script src="node_modules/semantic-ui/dist/semantic.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light">
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav" style="margin-left: 50px">
-            <li class="nav-item" style="margin-right: 30px">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item" style="margin-right: 30px">
-                <a class="nav-link" href="Profile.html">Profile</a>
-            </li>
-            <li class="nav-item" style="margin-right: 600px">
-                <a class="nav-link" href="Contact.html">Contact</a>
-            </li>
-            <li class="nav-item" style="margin-right: 30px">
-                <a href="https://www.facebook.com/dhroov.gupta.5" target="_blank">
-                    <i class="fa fa-facebook-official fa-2x facebook" aria-hidden="true"></i>
+<div class="home" id="home">
+    <div class="row">
+        <div class="col-sm-8"></div>
+        <div class="col-sm-3">
+            <div class="ui secondary pointing menu">
+                <a class="active item" href="#home">
+                    Home
                 </a>
-            </li>
-            <li class="nav-item" style="margin-right: 30px">
-                <a href="https://github.com/Dhroov7" target="_blank">
-                    <i id="github" class="fa fa-github fa-2x github" aria-hidden="true"></i>
+                <a class="item" href="#contributions">
+                    Contributions
                 </a>
-            </li>
-            <li class="nav-item" style="margin-right: 30px">
-                <a href="https://www.linkedin.com/in/dhroov-gupta-339a2b120/" target="_blank">
-                    <i id="linkedin" class="fa fa-linkedin fa-2x linkedin" aria-hidden="true"></i>
+                <a class="item" href="https://dhroovgupta.typeform.com/to/LBSMS9">
+                    Contact me
                 </a>
-            </li>
-            <li class="nav-item" style="margin-right: 30px">
-                <a href="https://www.quora.com/profile/Dhroov-Gupta-1" target="_blank">
-                    <i class="fa fa-quora fa-2x quora" aria-hidden="true"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <div>
-                <img class="d-block w-100 main" src="img/slider(1).jpg" alt="First slide"
-                     style="filter: grayscale(100%);height: 700px">
-                <img class="profile" src="img/16113918_767990396698875_5826062591810456459_n.jpg"
-                     style="width: 150px;height: 150px;border-radius: 50%;filter: grayscale(90%)">
-            </div>
-            <div class="carousel-caption" style="margin-bottom: 250px">
-                <h1 style="font-family: Tangerine;font-size: 70px">Hey,</h1>
-                <h1 style="font-family: Tangerine;font-size: 70px">I'm Dhroov Gupta</h1>
             </div>
         </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="img/slider(2).jpeg" alt="Second slide"
-                 style="height: 700px;filter: grayscale(100%)">
-            <div class="carousel-caption" style="margin-bottom: 200px">
-                <h1 style="color: black;font-family: Tangerine;font-size: 70px">I am Full Stack JavaScript
-                    Developer</h1>
+        <div class="col-sm-1"></div>
+    </div>
+    <div class="row pt-l">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4" style="padding-left: 5%">
+            <img class="ui medium circular image" src="assets/img/16113918_767990396698875_5826062591810456459_n.jpg">
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+    <div class="row pt-lg-4">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4" style="padding-left: 4%">
+            <h1 class="font-italic white">Hi,My name is Dhroov Gupta</h1>
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+    <div class="row pt-lg-4" style="padding-left: 8%">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <h2 class="font-italic white">Full Stack Web Developer</h2>
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+</div>
+<div class="about-me" id="about-me">
+    <div class="row pt-xl-5">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <i class="fas fa-quote-left white fa-4x"></i>
+                </div>
+                <div class="col-md-8"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-sm-8">
+                    <h2 class="white" style="line-height: 1.8">
+                        I'm a product person, a programmer, and an engineering leader. I ❤ creating scalable web apps
+                        with
+                        amazingly great UI/UX.
+
+                        I’m currently a full stack Developer Intern at Coding Blocks, building a product people love and
+                        growing my passion and love for web development.
+
+                        I write in HTML, CSS, JavaScript, NodeJS. I also can speak to databases and make servers do
+                        stuff. I
+                        like working on scalability, performance, design, and great user experiences.
+                    </h2>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-10"></div>
+                <div class="col-md-2">
+                    <i class="fas fa-quote-right white fa-4x"></i>
+                </div>
+            </div>
+            <div class="row pt-lg-4 work">
+                <div class="col-md-12">
+                    <div class="row pb-lg-4">
+                        <div class="col-md-5"></div>
+                        <div class="col-md-3">
+                            <h1 class="white customFont">What i work on</h1>
+                        </div>
+                    </div>
+                    <div class="row pt-xl-5">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item pr-lg-5">
+                                            <img class="size-sm" src="assets/img/html.png">
+                                        </li>
+                                        <li class="list-inline-item pr-lg-5">
+                                            <img class="size-sm" src="assets/img/css31600.png">
+                                        </li>
+                                        <li class="list-inline-item pr-lg-5">
+                                            <img class="size-xsm" src="assets/img/js.png">
+                                        </li>
+                                        <li class="list-inline-item pr-lg-5">
+                                            <img class="size-sm" src="assets/img/bootstrap-stack.png">
+                                        </li>
+                                        <li class="list-inline-item pr-lg-5">
+                                            <img class="size-sm" src="assets/img/jquery.png">
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <img class="size-sm" src="assets/img/emberJs.png">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row pt-xl-5">
+                                <div class="col-md-12 col-sm-6">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item pr-lg-5">
+                                            <img class="size-sm" src="assets/img/handlebars2.png" style="width: 80px">
+                                        </li>
+                                        <li class="list-inline-item pr-lg-5">
+                                            <img src="assets/img/nodeJs.png" style="width: 90px">
+                                        </li>
+                                        <li class="list-inline-item pr-lg-5">
+                                            <img src="assets/img/typescript.png" style="width: 80px;height: 50px">
+                                        </li>
+                                        <li class="list-inline-item pr-lg-5">
+                                            <img class="size-xsm" src="assets/img/postgres.png">
+                                        </li>
+                                        <li class="list-inline-item pr-lg-5">
+                                            <img class="size-sm" src="assets/img/passportJs.png">
+                                        </li>
+                                        <li class="ui list-inline-item pr-lg-5" data-content="Sequelize">
+                                            <img class="size-sm" src="assets/img/sequelize-logo.png">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                    <div id="contributions" class="row contributions pt-lg-4">
+                        <div class="col-md-12">
+                            <div class="row pb-lg-4">
+                                <div class="col-md-5"></div>
+                                <div class="col-md-3">
+                                    <h1 class="white customFont">My Contributions</h1>
+                                </div>
+                            </div>
+                            <div class="row pt-xl-5">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-3 col-sm-12">
+                                    <div class="ui raised link card">
+                                        <div class="content">
+                                            <div class="header">
+                                                <a href="https://account.codingblocks.com">OneAuth</a>
+                                            </div>
+                                            <div class="meta">
+                                                <span class="category">PassportJs</span>
+                                            </div>
+                                            <div class="description">
+                                                <p>Your one-stop Single Sign-on server.
+                                                    Login with Oneauth to your services.
+                                                    Login to Oneauth using Facebook/Twitter/Github</p>
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <div class="right floated">
+                                                <a href="https://github.com/coding-blocks/oneauth">Source</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2"></div>
+                                <div class="col-md-3 col-sm-12">
+                                    <div class="ui raised link card">
+                                        <div class="content">
+                                            <div class="header">
+                                                <a href="https://online.codingblocks.com">Coding Blocks Online</a>
+                                            </div>
+                                            <div class="meta">
+                                                <span class="category">EmberJs</span>
+                                            </div>
+                                            <div class="description">
+                                                <p>Coding blocks online courses website<br><br><br></p>
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <div class="right floated">
+                                                <a href="https://github.com/coding-blocks/codingblocks.online.projectx">Source</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                            <div class="row pt-xl-5">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-3 col-sm-12 pt-xl-4">
+                                    <div class="ui raised link card">
+                                        <div class="content">
+                                            <div class="header">
+                                                <a href="https://codingblocks.com">Coding Blocks</a>
+                                            </div>
+                                            <div class="meta">
+                                                <span class="category">HTML,CSS,JS</span>
+                                            </div>
+                                            <div class="description">
+                                                <p>Coding Blocks Main Website<br><br><br></p>
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <div class="right floated">
+                                                <a href="https://github.com/coding-blocks/codingblocks.com">Source</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2"></div>
+                                <div class="col-md-3 col-sm-12 pt-xl-4">
+                                    <div class="ui raised link card">
+                                        <div class="content">
+                                            <div class="header">
+                                                <a href="https://hack.codingblocks.com">Hacker Blocks</a>
+                                            </div>
+                                            <div class="meta">
+                                                <span class="category">EmberJs</span>
+                                            </div>
+                                            <div class="description">
+                                                <p>Coding blocks online code submission and judger.<br><br></p>
+                                            </div>
+                                        </div>
+                                        <div class="extra content">
+                                            <div class="right floated">
+                                                <a href="https://github.com/coding-blocks/hacker-blocks">Source</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                            <div class="row pt-xl-5">
+                                <div class="col-md-9"></div>
+                                <div class="col-md-3"><p class="white font-size-md">...and many more</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="contact-me" class="row pt-lg-4 contact">
+                        <div class="col-md-12">
+                            <div class="row pb-lg-4">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
+                                    <h1 class="white customFont">Connect with me on</h1>
+                                </div>
+                            </div>
+                            <div class="row pt-xl-5 pb-lg-5">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <ul class="list-inline">
+                                                <li class="list-inline-item pr-lg-5">
+                                                    <a href="https://www.facebook.com/dhroov.gupta.5">
+                                                        <img class="size-sm" src="assets/img/facebook.png">
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item pr-lg-5">
+                                                    <a href="https://github.com/Dhroov7">
+                                                        <img class="size-sm" style="width: 80px"
+                                                             src="assets/img/github.png">
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item pr-lg-5">
+                                                    <a href="https://www.linkedin.com/in/dhroov-gupta-339a2b120/">
+                                                        <img class="size-xsm" src="assets/img/linkedin.png">
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item pr-lg-5">
+                                                    <a href="https://www.quora.com/profile/Dhroov-Gupta-1">
+                                                        <img class="size-sm" src="assets/img/quora.png">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row footer pt-xl-5">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="row">
+                                        <div class="col-md-1"></div>
+                                        <div class="col-md-3">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <h2 class="white customFont" style="font-size: x-large">My resume</h2>
+                                                </div>
+                                                <div class="col-md-1"><i class="fas fa-arrow-circle-right white fa-2x"></i></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <div class="ui labeled button pr-xl-4" tabindex="0">
+                                                        <div class="ui blue button">
+                                                            <i class="download icon"></i> Download
+                                                        </div>
+                                                        <a class="ui basic blue left pointing label"
+                                                           href="assets/resume/Dhroov's%20Resume.pdf" download>
+                                                            468
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 pl-xl-5">
+                                    <p class="white">Made with <i class="heart red icon"></i> by Dhroov Gupta</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
-<!--<div class="parallax">-->
-    <!--<h1 style="font-family: Tangerine;font-size: 90px;text-align: center;color: white;margin-bottom: 100px">About me</h1>-->
-    <!--<p style="margin-bottom: 50px;font-size: 20px;color: white">I am Web Developer with a vast array of knowledge in many front-end and back-end languages,responsive-->
-        <!--frameworks,databases and best code practices.</p>-->
-    <!--<button class="btn" href="/Profile.html">View Full Profile</button>-->
-<!--</div>-->
-
-<div class="parallax">
-    <h1 style="font-family: Tangerine;font-size: 90px;text-align: center;color: white">Technical Skills</h1>
-    <div id="owl-demo" class="owl-carousel owl-theme owl-dots" style="margin-left: 20px;margin-top: 150px">
-        <div class="item">
-            <div>
-                <i class="fab fa-html5 fa-5x" style="color: orangered"></i>
-            </div>
-            <h3 style="margin-top: 10px;color: white">HTML5</h3>
-        </div>
-
-        <div class="item">
-            <div>
-                <i class="fab fa-css3-alt fa-5x" style="color: mediumblue"></i>
-            </div>
-            <h3 style="margin-top: 10px;color: white">CSS3</h3>
-        </div>
-
-        <div class="item">
-            <div>
-                <i class="fas fa-code fa-5x" style="color: lightgrey"></i>
-            </div>
-            <h3 style="margin-top: 10px;color: white">JQuery</h3>
-        </div>
-
-        <div class="item">
-            <div>
-                <i class="fab fa-js-square fa-5x" style="color: #FFFF5E"></i>
-            </div>
-            <h3 style="margin-top: 10px;color: white">JavaScript</h3>
-        </div>
-
-        <div class="item">
-            <div>
-                <i class="fas fa-code fa-5x" style="color: lightgrey"></i>
-            </div>
-            <h3 style="margin-top: 10px;color: white">Java</h3>
-        </div>
-
-        <div class="item">
-            <div>
-                <i class="fas fa-database fa-5x" style="color: white"></i>
-            </div>
-            <h3 style="margin-top: 10px;color: white">MySQL</h3>
-        </div>
-
-        <div class="item">
-            <div>
-                <i class="fas fa-code fa-5x" style="color: lightgrey"></i>
-            </div>
-            <h3 style="margin-top: 10px;color: white">C/C++</h3>
-        </div>
-
-        <div class="item">
-            <div>
-                <i class="fab fa-node fa-5x" style="color: green"></i>
-            </div>
-            <h3 style="margin-top: 10px;color: white">NodeJS</h3>
-        </div>
-
-        <div class="item">
-            <div>
-                <i class="fab fa-git fa-5x" style="color: white"></i>
-            </div>
-            <h3 style="margin-top: 10px;color: white">Git</h3>
-        </div>
-
-    </div>
-
-</div>
-
-<div>
-    <h1 style="font-family: Tangerine;font-size: 90px;text-align: center;color: black">Programming Languages</h1>
-    <div id="piechart" style="width: 700px; height: 500px;margin-left: 350px"></div>
-</div>
-<div class="parallax"></div>
-
-<footer style="background-image: url('img/footer.jpg');height: 40px">
-    <p style="color: lightgrey;text-align: end">Copyright © 2018 Dhroov Gupta</p>
-</footer>
 </body>
 </html>
