@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Dhroov7/Dhroov7.github.io#readme",
   "dependencies": {
-    "semantic-ui": "^2.3.3"
+    "semantic-ui": "^2.5.0"
   }
 }
