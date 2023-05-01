@@ -112,6 +112,10 @@
         flex-direction: column;
         gap: 3.2rem;
     }
+
+    .built-container {
+        padding-left: 3rem;
+    }
 }
 
 @media (max-width: 34.5em) {
