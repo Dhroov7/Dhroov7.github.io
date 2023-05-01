@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    max-width: 120rem;
+    padding: 0 4.8rem;
+    margin: 0 auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+    background-color: #F5F5F5;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+}
+
+a {
+   color: #666666; 
+}
+
+.brand-color {
+    color: #1A1E3A;
+}
+
+.grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.grid--align-v {
+    align-items: center;
+}
+
+.grid--align-h {
+    justify-items: center;
+}
+
+.grid--col-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--col-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--col-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--col-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.section-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 2.6rem;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+noscript {
+    color: rgb(0, 75, 145);
+}

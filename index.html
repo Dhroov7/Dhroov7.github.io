@@ -1,359 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114835032-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'UA-114835032-1');
-    </script>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <meta charset="UTF-8">
-    <title>Hey,I'm Dhroov Gupta</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="semantic-ui/dist/semantic.min.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="semantic-ui/dist/semantic.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/timeme.js@2.0.4/timeme.min.js"></script>
-    <script src="./newsbyte.js"></script>
-</head>
-<body>
-<div class="home" id="home">
-    <div class="row">
-        <div class="col-sm-8"></div>
-        <div class="col-sm-3">
-            <div class="ui grey secondary pointing menu stick">
-                <a class="active item" href="#home">
-                    Home
-                </a>
-                <a class="active item" href="#contributions">
-                    Contributions
-                </a>
-                <a class="active item" href="https://dhroovgupta.typeform.com/to/LBSMS9">
-                    Contact me
-                </a>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./css/general.css" rel="stylesheet" />
+    <link href="./css/queries.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+    <title>Dhroov Gupta</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation-container">
+        <h2 class="brand-color"><a href="#">DHROOV GUPTA</a></h2>
+        <div>
+          <ul class="navigation">
+            <li class="nav-link"><a href="#tech-stack"> Tech Stack </a></li>
+            <li class="nav-link"><a href="#projects">Projects</a></li>
+            <li>
+              <a
+                href="https://regal-drawer-546.notion.site/Dhroov-s-Resume-b57ce0350a82452eaba1d267e7456845"
+                >Resume</a
+              >
+            </li>
+            <li class="social-link nav-link" name="Email">
+              <a href="mailto:dhroovgupta7@gmail.com"
+                ><img src="./assets/images/social/email.png" alt="Email Icon"
+              /></a>
+            </li>
+            <li class="social-link nav-link" name="Github">
+              <a href="https://github.com/Dhroov7">
+                <img
+                  src="./assets/images/social/github-icon.svg"
+                  alt="Github Icon"
+              /></a>
+            </li>
+            <li class="social-link nav-link" name="Twitter">
+              <a href="https://twitter.com/dhroovgupta97">
+                <img
+                  src="./assets/images/social/twitter.svg"
+                  alt="Twitter Icon"
+                />
+              </a>
+            </li>
+            <li class="social-link nav-link" name="LinkedIn">
+              <a href="https://www.linkedin.com/in/dhroov-gupta/">
+                <img
+                  src="./assets/images/social/linkedin.svg"
+                  alt="Linkedin Icon"
+                />
+              </a>
+            </li>
+          </ul>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
         </div>
-        <div class="col-sm-1"></div>
-    </div>
-    <div class="row pt-l">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4" style="padding-left: 5%">
-            <img class="ui medium circular image" src="assets/img/16113918_767990396698875_5826062591810456459_n.jpg">
+      </nav>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero grid grid--col-2">
+          <div class="hero-element hero-headline brand-color">
+            Hey,<br />
+            I'm a Software Engineer<br />I
+            <noscript> Build Web Apps </noscript>
+            <span
+              class="typewrite"
+              data-period="1000"
+              data-type='[ "Build Web Apps", "Build Backend Systems", "Design Software Architecture" ]'
+            >
+            </span>
+          </div>
+          <div class="hero-element hero-image-container">
+            <img
+              class="hero-image"
+              src="./assets/images/picofme-1.png"
+              alt="My Image"
+            />
+          </div>
         </div>
-        <div class="col-sm-4"></div>
-    </div>
-    <div class="row pt-lg-4">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4" style="padding-left: 4%">
-            <h1 class="font-italic white">Hi,My name is Dhroov Gupta</h1>
+      </section>
+      <section class="tech-stack" id="tech-stack">
+        <h2 class="section-heading brand-color">My Tech Stack</h2>
+        <div class="tech-stack-gallery grid--col-5">
+          <img
+            class="logo-image"
+            src="./assets/images/tech-stack/html.svg"
+            alt="HTML"
+          />
+          <img
+            class="logo-image"
+            src="./assets/images/tech-stack/css.svg"
+            alt="CSS"
+          />
+          <img
+            class="logo-image"
+            src="./assets/images/tech-stack/react.svg"
+            alt="ReactJS"
+          />
+          <img
+            class="logo-image"
+            src="./assets/images/tech-stack/nodejs.svg"
+            alt="NodeJS"
+          />
+          <img
+            class="logo-image"
+            src="./assets/images/tech-stack/typescript.svg"
+            alt="Typescript"
+          />
+          <img
+            class="logo-image"
+            src="./assets/images/tech-stack/golang.svg"
+            alt="GoLang"
+          />
+          <img
+            class="logo-image"
+            src="./assets/images/tech-stack/redis.svg"
+            alt="Redis"
+          />
+          <img
+            class="logo-image"
+            src="./assets/images/tech-stack/mongodb.svg"
+            alt="MongoDB"
+          />
+          <img
+            class="logo-image"
+            src="./assets/images/tech-stack/mysql.svg"
+            alt="MySQL"
+          />
+          <img
+            class="logo-image"
+            src="./assets/images/tech-stack/kafka.svg"
+            alt="Kafka"
+          />
         </div>
-        <div class="col-sm-4"></div>
-    </div>
-    <div class="row pt-lg-4" style="padding-left: 8%">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4">
-            <h2 class="font-italic white">Full Stack Web Developer</h2>
-        </div>
-        <div class="col-sm-4"></div>
-    </div>
-</div>
-<div class="about-me" id="about-me">
-    <div class="row pt-xl-5">
-        <div class="col-md-12">
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-2">
-                    <i class="fas fa-quote-left white fa-4x"></i>
+      </section>
+      <section class="projects" id="projects">
+        <h2 class="section-heading brand-color">Projects</h2>
+        <div class="projects-gallery grid--col-3">
+          <div class="project-card-container">
+            <div class="project-card">
+              <div>
+                <img
+                  class="project-image"
+                  src="./assets/images/projects/npm-tricks.png"
+                  alt="Project Image"
+                />
+              </div>
+              <div class="project-details">
+                <h3 class="project-title">Dist-Rate</h3>
+                <p class="project-description">
+                  Redis-based rate limiter for distributed environments with
+                  multiple Node.js servers. Provides locking and storage
+                  functionality.
+                </p>
+                <p class="project-tech-stack brand-color">
+                  <span class="tech-stack-bold">Tech stack:</span> NodeJS, TS,
+                  Redis
+                </p>
+                <div class="project-links">
+                  <div class="preview link">
+                    <img src="./assets/images/link.svg" alt="Link SVG" />
+                    <a href="https://www.npmjs.com/package/dist-rate"
+                      >Live Preview</a
+                    >
+                  </div>
+                  <div class="github link">
+                    <img src="./assets/images/github.svg" alt="Github SVG" />
+                    <a href="https://github.com/Dhroov7/distRate">View Code</a>
+                  </div>
                 </div>
-                <div class="col-md-8"></div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-sm-8">
-                    <h2 class="white" style="line-height: 1.8">
-                        I'm a product person, a programmer, and an engineering leader. I ❤ creating scalable web apps
-                        with
-                        amazingly great UI/UX.
-
-                        I’m currently a full stack Developer Intern at Coding Blocks, building a product people love and
-                        growing my passion and love for web development.
-
-                        I write in HTML, CSS, JavaScript, NodeJS. I also can speak to databases and make servers do
-                        stuff. I
-                        like working on scalability, performance, design, and great user experiences.
-                    </h2>
+          </div>
+          <div class="project-card-container">
+            <div class="project-card">
+              <div>
+                <img
+                  class="project-image"
+                  src="./assets/images/projects/weather.jpeg"
+                  alt="Project Image"
+                />
+              </div>
+              <div class="project-details">
+                <h3 class="project-title">Weather App</h3>
+                <p class="project-description">
+                  React app features a responsive design, providing accurate and
+                  easily accessible weather information on any device.
+                </p>
+                <p class="project-tech-stack brand-color">
+                  <span class="tech-stack-bold">Tech stack:</span> HTML, CSS,
+                  ReactJS
+                </p>
+                <div class="project-links">
+                  <div class="preview link">
+                    <img src="./assets/images/link.svg" alt="Link SVG" />
+                    <a href="https://dhroov7.github.io/weather-app/"
+                      >Live Preview</a
+                    >
+                  </div>
+                  <div class="github link">
+                    <img src="./assets/images/github.svg" alt="Github SVG" />
+                    <a href="https://github.com/Dhroov7/weather-app"
+                      >View Code</a
+                    >
+                  </div>
                 </div>
-                <div class="col-md-2"></div>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-md-10"></div>
-                <div class="col-md-2">
-                    <i class="fas fa-quote-right white fa-4x"></i>
+          </div>
+          <div class="project-card-container">
+            <div class="project-card">
+              <div>
+                <img
+                  class="project-image"
+                  src="./assets/images/projects/omnifood.jpeg"
+                  alt="Project Image"
+                />
+              </div>
+              <div class="project-details">
+                <h3 class="project-title">OmniFood</h3>
+                <p class="project-description">
+                  Landing page for healthy diet meal plans features a clean,
+                  modern design with easy-to-use navigation for healthy food
+                  delivery.
+                </p>
+                <p class="project-tech-stack brand-color">
+                  <span class="tech-stack-bold">Tech stack:</span> HTML, CSS,
+                  JavaScript
+                </p>
+                <div class="project-links">
+                  <div class="preview link">
+                    <img src="./assets/images/link.svg" alt="Link SVG" />
+                    <a href="https://dhroov7.github.io/Omnifood"
+                      >Live Preview</a
+                    >
+                  </div>
+                  <div class="github link">
+                    <img src="./assets/images/github.svg" alt="Github SVG" />
+                    <a href="https://github.com/Dhroov7/Omnifood">View Code</a>
+                  </div>
                 </div>
+              </div>
             </div>
-            <div class="row pt-lg-4 work">
-                <div class="col-md-12">
-                    <div class="row pb-lg-4">
-                        <div class="col-md-5"></div>
-                        <div class="col-md-3">
-                            <h1 class="white customFont">What i work on</h1>
-                        </div>
-                    </div>
-                    <div class="row pt-xl-5">
-                        <div class="col-md-3"></div>
-                        <div class="col-md-8">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item pr-lg-5">
-                                            <img class="size-sm" src="assets/img/html.png">
-                                        </li>
-                                        <li class="list-inline-item pr-lg-5">
-                                            <img class="size-sm" src="assets/img/css31600.png">
-                                        </li>
-                                        <li class="list-inline-item pr-lg-5">
-                                            <img class="size-xsm" src="assets/img/js.png">
-                                        </li>
-                                        <li class="list-inline-item pr-lg-5">
-                                            <img class="size-sm" src="assets/img/bootstrap-stack.png">
-                                        </li>
-                                        <li class="list-inline-item pr-lg-5">
-                                            <img class="size-sm" src="assets/img/jquery.png">
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <img class="size-sm" src="assets/img/emberJs.png">
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="row pt-xl-5">
-                                <div class="col-md-12 col-sm-6">
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item pr-lg-5">
-                                            <img class="size-sm" src="assets/img/handlebars2.png" style="width: 80px">
-                                        </li>
-                                        <li class="list-inline-item pr-lg-5">
-                                            <img src="assets/img/nodeJs.png" style="width: 90px">
-                                        </li>
-                                        <li class="list-inline-item pr-lg-5">
-                                            <img src="assets/img/typescript.png" style="width: 80px;height: 50px">
-                                        </li>
-                                        <li class="list-inline-item pr-lg-5">
-                                            <img class="size-xsm" src="assets/img/postgres.png">
-                                        </li>
-                                        <li class="list-inline-item pr-lg-5">
-                                            <img class="size-sm" src="assets/img/passportJs.png">
-                                        </li>
-                                        <li class="ui list-inline-item pr-lg-5" data-content="Sequelize">
-                                            <img class="size-sm" src="assets/img/sequelize-logo.png">
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2"></div>
-                    </div>
-                    <div id="contributions" class="row contributions pt-lg-4">
-                        <div class="col-md-12">
-                            <div class="row pb-lg-4">
-                                <div class="col-md-5"></div>
-                                <div class="col-md-3">
-                                    <h1 class="white customFont">My Contributions</h1>
-                                </div>
-                            </div>
-                            <div class="row pt-xl-5">
-                                <div class="col-md-2"></div>
-                                <div class="col-md-3 col-sm-12">
-                                    <div class="ui raised link card">
-                                        <div class="content">
-                                            <div class="header">
-                                                <a href="https://account.codingblocks.com">OneAuth</a>
-                                            </div>
-                                            <div class="meta">
-                                                <span class="category">PassportJs</span>
-                                            </div>
-                                            <div class="description">
-                                                <p>Your one-stop Single Sign-on server.
-                                                    Login with Oneauth to your services.
-                                                    Login to Oneauth using Facebook/Twitter/Github</p>
-                                            </div>
-                                        </div>
-                                        <div class="extra content">
-                                            <div class="right floated">
-                                                <a href="https://github.com/coding-blocks/oneauth">Source</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-2"></div>
-                                <div class="col-md-3 col-sm-12">
-                                    <div class="ui raised link card">
-                                        <div class="content">
-                                            <div class="header">
-                                                <a href="https://online.codingblocks.com">Coding Blocks Online</a>
-                                            </div>
-                                            <div class="meta">
-                                                <span class="category">EmberJs</span>
-                                            </div>
-                                            <div class="description">
-                                                <p>Coding blocks online courses website<br><br><br></p>
-                                            </div>
-                                        </div>
-                                        <div class="extra content">
-                                            <div class="right floated">
-                                                <a href="https://github.com/coding-blocks/codingblocks.online.projectx">Source</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-2"></div>
-                            </div>
-                            <div class="row pt-xl-5">
-                                <div class="col-md-2"></div>
-                                <div class="col-md-3 col-sm-12 pt-xl-4">
-                                    <div class="ui raised link card">
-                                        <div class="content">
-                                            <div class="header">
-                                                <a href="https://codingblocks.com">Coding Blocks</a>
-                                            </div>
-                                            <div class="meta">
-                                                <span class="category">HTML,CSS,JS</span>
-                                            </div>
-                                            <div class="description">
-                                                <p>Coding Blocks Main Website<br><br><br></p>
-                                            </div>
-                                        </div>
-                                        <div class="extra content">
-                                            <div class="right floated">
-                                                <a href="https://github.com/coding-blocks/codingblocks.com">Source</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-2"></div>
-                                <div class="col-md-3 col-sm-12 pt-xl-4">
-                                    <div class="ui raised link card">
-                                        <div class="content">
-                                            <div class="header">
-                                                <a href="https://hack.codingblocks.com">Hacker Blocks</a>
-                                            </div>
-                                            <div class="meta">
-                                                <span class="category">EmberJs</span>
-                                            </div>
-                                            <div class="description">
-                                                <p>Coding blocks online code submission and judger.<br><br></p>
-                                            </div>
-                                        </div>
-                                        <div class="extra content">
-                                            <div class="right floated">
-                                                <a href="https://github.com/coding-blocks/hacker-blocks">Source</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-2"></div>
-                            </div>
-                            <div class="row pt-xl-5">
-                                <div class="col-md-9"></div>
-                                <div class="col-md-3"><p class="white font-size-md">...and many more</p></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="contact-me" class="row pt-lg-4 contact">
-                        <div class="col-md-12">
-                            <div class="row pb-lg-4">
-                                <div class="col-md-4"></div>
-                                <div class="col-md-4">
-                                    <h1 class="white customFont">Connect with me on</h1>
-                                </div>
-                            </div>
-                            <div class="row pt-xl-5 pb-lg-5">
-                                <div class="col-md-4"></div>
-                                <div class="col-md-6">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item pr-lg-5">
-                                                    <a href="https://www.facebook.com/dhroov.gupta.5">
-                                                        <img class="size-sm" src="assets/img/facebook.png">
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item pr-lg-5">
-                                                    <a href="https://github.com/Dhroov7">
-                                                        <img class="size-sm" style="width: 80px"
-                                                             src="assets/img/github.png">
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item pr-lg-5">
-                                                    <a href="https://www.linkedin.com/in/dhroov-gupta-339a2b120/">
-                                                        <img class="size-xsm" src="assets/img/linkedin.png">
-                                                    </a>
-                                                </li>
-                                                <li class="list-inline-item pr-lg-5">
-                                                    <a href="https://www.quora.com/profile/Dhroov-Gupta-1">
-                                                        <img class="size-sm" src="assets/img/quora.png">
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-2"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row footer pt-xl-5">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-9">
-                                    <div class="row">
-                                        <div class="col-md-1"></div>
-                                        <div class="col-md-3">
-                                            <div class="row">
-                                                <div class="col-md-8">
-                                                    <h2 class="white customFont" style="font-size: x-large">My resume</h2>
-                                                </div>
-                                                <div class="col-md-1"><i class="fas fa-arrow-circle-right white fa-2x"></i></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="row">
-                                                <div class="col-md-8">
-                                                    <div class="ui labeled button pr-xl-4" tabindex="0">
-                                                        <div class="ui blue button">
-                                                            <i class="download icon"></i> Download
-                                                        </div>
-                                                        <a class="ui basic blue left pointing label"
-                                                           href="assets/resume/Dhroov's%20Resume.pdf" download>
-                                                            468
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 pl-xl-5">
-                                    <p class="white">Made with <i class="heart red icon"></i> by Dhroov Gupta</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          </div>
+          <div class="project-card-container">
+            <div class="project-card">
+              <div>
+                <img
+                  class="project-image"
+                  src="./assets/images/projects/imtv.jpeg"
+                  alt="Project Image"
+                />
+              </div>
+              <div class="project-details">
+                <h3 class="project-title">IMTV</h3>
+                <p class="project-description">
+                  On-demand video streaming app is built with React and Go,
+                  providing seamless video streaming with a modern UI.
+                </p>
+                <p class="project-tech-stack brand-color">
+                  <span class="tech-stack-bold">Tech stack:</span> ReactJS,
+                  GoLang
+                </p>
+                <div class="project-links">
+                  <div class="preview link">
+                    <img src="./assets/images/link.svg" alt="Link SVG" />
+                    <a href="https://github.com/Dhroov7/imtv">Live Preview</a>
+                  </div>
+                  <div class="github link">
+                    <img src="./assets/images/github.svg" alt="Github SVG" />
+                    <a href="https://github.com/Dhroov7/imtv-backend"
+                      >View Code</a
+                    >
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</div>
-</body>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-contact">
+        <h2 class="brand-color"><a href="#">DHROOV GUPTA</a></h2>
+        <ul class="footer-contact-list">
+          <li>
+            <a class="contact-email" href="mailto:dhroovgupta7@gmail.com"
+              ><img src="./assets/images/social/email.png" alt="Email Icon"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/Dhroov7"
+              ><img
+                src="./assets/images/social/github-icon.svg"
+                alt="Github Icon"
+            /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/dhroovgupta97">
+              <img
+                src="./assets/images/social/twitter.svg"
+                alt="Twitter Icon"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/dhroov-gupta/">
+              <img
+                src="./assets/images/social/linkedin.svg"
+                alt="Linkedin Icon"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <hr style="width: 100%" />
+      <div class="footer-links-container">
+        <ul class="footer-links">
+          <li><a href="#tech-stack"> Tech Stack </a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li>
+            <a
+              href="https://regal-drawer-546.notion.site/Dhroov-s-Resume-b57ce0350a82452eaba1d267e7456845"
+              >Resume</a
+            >
+          </li>
+        </ul>
+        <div class="built-container">
+          <p>Built by <span>Dhroov Gupta</span> with</p>
+          <img src="./assets/images/coffee.png" alt="Coffee Pot" />
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
