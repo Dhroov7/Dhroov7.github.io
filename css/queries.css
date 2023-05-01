@@ -26,7 +26,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 0;
         transform: translateX(100%);
 
         display: flex;
@@ -47,6 +47,7 @@
         pointer-events: auto;
         visibility: visible;
         transform: translateX(0);
+        width: 100%;
     }
 
     .btn-mobile-nav {
@@ -70,7 +71,7 @@
     }
 }
 
-@media (max-width: 47em) {
+@media (max-width: 49em) {
     .projects-gallery {
         grid-template-columns: repeat(1, 1fr);
     }
