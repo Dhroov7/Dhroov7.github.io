@@ -41,16 +41,16 @@ Medium: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
-nav {
+.navigation-container {
   display: flex;
   justify-content: space-between;
   margin-top: 3.2rem;
-  align-items: center;
 }
 
 nav h2 {
   font-size: 2rem;
   font-weight: 500;
+  transform: translateY(35%);
 }
 
 .navigation {
