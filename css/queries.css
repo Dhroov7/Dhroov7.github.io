@@ -71,7 +71,7 @@
     }
 }
 
-@media (max-width: 49em) {
+@media (max-width: 52.5em) {
     .projects-gallery {
         grid-template-columns: repeat(1, 1fr);
     }
