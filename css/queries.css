@@ -134,6 +134,12 @@
     }
 }
 
+@media (max-width: 26em) {
+    html {
+        padding: 0 2rem;
+    }
+}
+
 @media (max-width: 25em) {
     html {
         font-size: 43.7%;
@@ -149,20 +155,6 @@
         height: 35rem;
     }
 
-    .tech-stack-gallery {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .tech-stack-gallery img:nth-child(9) {
-        grid-column: 3 / 4;
-    }
-
-    .tech-stack-gallery img:nth-child(10) {
-        grid-column: 2 / 3;
-    }
-}
-
-@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
     .tech-stack-gallery {
         grid-template-columns: repeat(3, 1fr);
     }
