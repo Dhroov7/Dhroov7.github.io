@@ -43,7 +43,7 @@ export default function Terminal() {
 
       {/* Terminal */}
       <div
-        className="max-w-3xl w-full rounded-lg border shadow-2xl overflow-hidden"
+        className="terminal w-full max-w-full sm:max-w-3xl md:max-w-4xl lg:max-w-5xl mx-auto"
         style={{ backgroundColor: "#5a5d7a", borderColor: "#4e516d" }}
       >
         {/* Terminal Header */}
@@ -58,7 +58,7 @@ export default function Terminal() {
 
         {/* Terminal Body */}
         <div
-          className="terminal-body p-4 text-sm md:text-base lg:text-lg space-y-2 leading-relaxed"
+          className="terminal-body p-6 text-sm md:text-base lg:text-md space-y-2 leading-relaxed"
           style={{ fontWeight: 400 }}
         >
           {/* About Lines */}

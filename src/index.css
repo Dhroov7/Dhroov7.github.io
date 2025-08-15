@@ -18,8 +18,3 @@ body {
 .cursor-blink {
   animation: blink 1s step-start infinite;
 }
-
-.terminal-body {
-  font-weight: 300; /* normal weight */
-  font-family: inherit;
-}
