@@ -69,13 +69,6 @@ export default function Terminal() {
                 <span style={{ color: "#ffffff" }}>{key}</span>
                 <br />
                 <span style={{ color: "#fff7b3" }}>{value}</span>
-                <span
-                  className="ml-1 cursor-blink"
-                  style={{ color: "#ffffff" }}
-                >
-                  {" "}
-                  █
-                </span>
               </div>
             );
           })}
@@ -94,8 +87,10 @@ export default function Terminal() {
                   fontFamily: "inherit",
                   fontWeight: 400,
                 }}
-                onClick={() => setSelected(idx)}
-                onDoubleClick={() => setExpanded(expanded === idx ? null : idx)}
+                onClick={() => {
+                  setSelected(idx); // select project
+                  setExpanded(expanded === idx ? null : idx); // toggle expand/collapse
+                }}
                 onMouseEnter={(e) => {
                   if (selected !== idx)
                     e.currentTarget.style.backgroundColor = "#555872";
@@ -113,13 +108,18 @@ export default function Terminal() {
                   <motion.div
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ opacity: 1, height: "auto" }}
-                    exit={{ opacity: 0, height: 0 }} // 🔹 Animate close
+                    exit={{ opacity: 0, height: 0 }}
                     transition={{ duration: 0.2 }}
                     className="ml-6 mt-1"
                     style={{ color: "#d1d1e0", fontFamily: "inherit" }}
                   >
                     {p.description.map((d, i) => (
-                      <div key={i} style={{ color: "#fff7b3", fontFamily: "inherit" }}>- {d}</div>
+                      <div
+                        key={i}
+                        style={{ color: "#fff7b3", fontFamily: "inherit" }}
+                      >
+                        - {d}
+                      </div>
                     ))}
                     <a
                       href={p.link}
@@ -191,6 +191,13 @@ export default function Terminal() {
             >
               "View Resume"
             </a>
+          </div>
+          <div className="mt-4" style={{ color: "#ffffff" }}>
+            &gt;
+            <span className="ml-1 cursor-blink" style={{ color: "#ffffff" }}>
+              {" "}
+              █
+            </span>
           </div>
         </div>
       </div>
